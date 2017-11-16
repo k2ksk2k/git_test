@@ -1,1 +1,1 @@
-git diff [branch]
+git merge [branch]
