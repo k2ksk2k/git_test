@@ -1,0 +1,4 @@
+#Set the config enviroment:
+git config --global user.name "k2ksk2k"
+git config --global user.email "k2ksk2k@outlook.com"
+
