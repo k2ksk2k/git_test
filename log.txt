@@ -1,6 +1,7 @@
 git log
+git log -n 1
 git log --author=k2ksk2k@gmail.com --oneline -5
- git log --oneline --before={3.weeks.ago} --after={2017-11-18} --no-merges
+git log --oneline --before={3.weeks.ago} --after={2017-11-18} --no-merges
 git log --grep=Add --no-merges
 git log --grep="p4 depo" --format="%h %an %s" --author="Hausmann"
 git log --grep="p4 depo" --format="%h %an %s" --author="Hausmann" --all-match
