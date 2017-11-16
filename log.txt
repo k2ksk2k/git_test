@@ -1,0 +1,9 @@
+git log
+git log --author=k2ksk2k@gmail.com --oneline -5
+ git log --oneline --before={3.weeks.ago} --after={2017-11-18} --no-merges
+git log --grep=Add --no-merges
+git log --grep="p4 depo" --format="%h %an %s" --author="Hausmann"
+git log --grep="p4 depo" --format="%h %an %s" --author="Hausmann" --all-match
+git log -S[context]
+git log -p --no-merges -2
+git log --stat --no-merges -2
