@@ -3,3 +3,7 @@ git config --global user.name "k2ksk2k"
 git config --global user.email "k2ksk2k@outlook.com"
 git branch --set-upstream devel origin/master
 git branch --track devel origin/master
+git remote show
+git remote show origin
+git remote prune origin
+git fetch -p
