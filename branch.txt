@@ -2,3 +2,8 @@ git branch
 git checkout [branch]
 git branch -a
 git branch -r #local branchs
+git push origin :[branchName]
+git push origin --delete [branchName]
+git push origin HEAD:refs/heads/foo
+git checkout -b [branchNAME] master
+
