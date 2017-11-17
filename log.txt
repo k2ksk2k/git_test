@@ -8,3 +8,4 @@ git log --grep="p4 depo" --format="%h %an %s" --author="Hausmann" --all-match
 git log -S[context]
 git log -p --no-merges -2
 git log --stat --no-merges -2
+git log --oneline --decorate --graph
