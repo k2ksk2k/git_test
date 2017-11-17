@@ -6,4 +6,5 @@ git push origin :[branchName]
 git push origin --delete [branchName]
 git push origin HEAD:refs/heads/foo
 git checkout -b [branchNAME] master
-
+git branch -d [branchNAME]
+git branch -D [brancheNAME]
