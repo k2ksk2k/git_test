@@ -1,2 +1,7 @@
 git tag -a v1.0
 git tag -a v0.1 [commitID]
+git tag -a v1.0.0 -m 'Milestonev1.0.0'
+git tag -d [tagID]
+git push origin  --tags
+git push origin :refs/tags/v1.0.0
+git push origin --delete tag v1.0.0
