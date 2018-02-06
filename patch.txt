@@ -1,4 +1,13 @@
  git diff master > patch
+ -- current branch forward master
  git format-patch -M master
+ -- after 4e16abc commit
+ git format-patch 4e16abc
+ git format-patch cim-1..com-2
  git apply patch
-
+ git apply --stat newpatch.patch
+ git apply --check newpatch.patch
+ git am --signoff < newpatch.patch
+ git apply PATCH --reject
+ git am --resolved
+ git am --abort
