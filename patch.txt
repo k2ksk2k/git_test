@@ -1,0 +1,2 @@
+ git diff master > patch
+ git format-patch -M master
