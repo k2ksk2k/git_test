@@ -1,0 +1,3 @@
+git show --stat HEAD
+git show --stat HEAD^^
+git show --stat HEAD^^^..HEAD
