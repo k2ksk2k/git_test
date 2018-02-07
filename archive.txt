@@ -1,3 +1,6 @@
 git archive -o ../latest.zip HEAD
 git archive -o ../updated.zip HEAD $(git diff --name-only HEAD^)
 git archive -o ../git-1.4.0-docs.zip  HEAD:Documentation/
+git archive --format=zip -o update.zip HEAD $(git diff --name-only HEAD~2)
+git archive --format=zip -o update.zip HEAD $(git diff --name-only master fix-error)
+git archive --format=tar --remote=ssh://remote_server/remote_repository master | tar -xf -
